@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*   <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+ */
+
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+.general-container{
+    max-width:70rem;
+    margin: 10rem auto;
+    /* padding: 0 3.2rem; */
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+}
+.inner-container{
+    padding: 2.5rem;
+}
+img{
+    width: 100%;
+    border-radius: 8px;
+}
+h1{
+    font-size: 3.8rem;
+    font-family: "Young Serif";
+    padding: 1rem 0;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+    color: hsl(24, 5%, 18%);
+}
+.para-class{
+    font-size: 1.6rem;
+    font-family: "Outfit";
+    padding-bottom: 2.5rem;
+    color: hsl(30, 10%, 34%);
+    font-weight: 600;
+    line-height: 1.5;
+}
+.preparation{
+    background-color: hsl(330, 100%, 98%);
+    padding: 2.5rem;
+    border-radius: 8px;
+}
+
+/* reuseable */
+.wine{
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+    font-family: "Outfit";
+}
+.brown{
+    color: hsl(14, 45%, 36%);
+}
+.big{
+    font-weight: 800;
+    font-family: "Young Serif";
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+}
+/* ************************************* */
+
+
+.flexed{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding: 1.5rem 1.5rem 1.5rem 3rem;
+    /* justify-content: space-around;
+    margin-left: -15rem; */
+}
+.flexed:last-child{
+    border-bottom: none;
+}
+ul, ol{
+    list-style-type: none;
+}
+ul li::before{
+    content: ".";
+    color: hsl(332, 51%, 32%);
+    font-weight: bolder;
+    font-size: 3rem;
+    display: inline-block;
+    justify-self: center;
+    margin: 0 2.2rem 0 0.6rem;
+}
+/* ol li::before */
+
+.para{
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+    font-size: 1.6rem;
+    display: inline-block;
+    justify-self: center;
+    font-family: "Outfit";
+    margin: 0 1.8rem 0 0.6rem;
+}
+.div{
+    display: flex;
+}
+/* ol li:nth-child(1)::before{
+    content: "1.";
+}
+ol li:nth-child(2)::before{
+    content: "2.";
+}
+ol li:nth-child(3)::before{
+    content: "3.";
+}
+ol li:nth-child(4)::before{
+    content: "4.";
+}
+ol li:nth-child(5)::before{
+    content: "5.";
+}
+ol li:nth-child(6)::before{
+    content: "6.";
+} */
+
+ul li, ol li{
+    font-size: 1.6rem;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit";
+}
+.main{
+    font-size: 1.6rem;
+    font-weight: 600;
+    font-family: "Outfit";
+    color: hsl(24, 5%, 18%);
+}
+h4{
+    font-size: 1.8rem;
+}
+
+img{
+    stroke: blue;
+}
+.ingridient{
+    margin: 2.5rem 0;
+}
+.nutri{
+    padding-top: 2rem;
+}
+.instruction{
+    border-top: 1px solid hsl(30, 18%, 87%);
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding: 2rem 0;
+    line-height: 1.8;
+    text-align: start;
+}
+.padd{
+    padding: 1.5rem 0;
+}
+.flexed-para{
+    color: hsl(30, 10%, 34%);
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: "Outfit";
+}
+.adjust{
+    margin-left: -22rem;
+}
+.attribution{
+    font-style: "outfit";
+    font-size: 1.2rem;
+    text-align: center;
+    letter-spacing: 0.07rem;
+    padding: 2rem;
+}
